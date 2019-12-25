@@ -6,40 +6,47 @@
     <h2>Day 1(內容會視成員對網頁技術的了解程度做調整)</h2>
 
     <h3>課程介紹</h3>
-    <p>介紹課程內容</p>
+    <p>介紹課程內容。</p>
 
     <h3>自我介紹</h3>
-    <p>全員自我介紹</p>
+    <p>全員自我介紹。</p>
 
     <h3>環境建置</h3>
     <ul>
-      <li>VSCODE - 安裝、基本設定與套件安裝</li>
+      <li>VSCODE - 安裝、基本設定與套件安裝。</li>
       <!-- <p>
       VSCODE套件：Code Spell Checker、Vetur、ESLint、Prettier、Chinese Language
     </p> -->
-      <li>Git</li>
-      <li>Github - 帳號申請</li>
-      <li>Sourcetree - 版控 GUI 程式 Sourcetree 安裝及設定</li>
-      <li>SSH</li>
-      <li>NODE.js</li>
+      <li>Github - 介紹與帳號申請。</li>
+      <li>Sourcetree - 版控 GUI 程式 Sourcetree 安裝、介紹及設定。</li>
+      <li>Git - 介紹與基本使用方式。</li>
+      <li>SSH - 介紹與設定。</li>
+      <li>Node.js - 安裝與介紹。</li>
     </ul>
 
     <h3>HTML</h3>
     <ul>
       <li>
-        常用 html element 介紹 - h1 - 6, div, p, input ...，基本用法與介紹
+        網頁基本結構介紹 - html、head、body...。
       </li>
       <li>
-        html element 講解 - 講解 html element 的結構(tag, content, attributes)
+        常用 html element 用法及介紹 (h1 - 6, div, p, input, table ...)。
+      </li>
+      <li>
+        html element 講解 - 講解 html element 的結構 (tag, content,
+        attributes)。
       </li>
     </ul>
 
     <h3>CSS</h3>
     <ul>
-      <li>基礎 - 語法、選擇器、引入方式比較</li>
-      <li>基本排版 - html 及 css 的排版練習</li>
-      <li>開發者工具 - 在瀏覽器中使用開發者工具(F12) 查看及編輯 element</li>
-      <li>Bootstrap</li>
+      <li>
+        基礎 - 基本語法、選擇器、如何對 element
+        下樣式、引入樣式的方式及優先度比較。
+      </li>
+      <li>基本排版 - html 及 css 的排版練習。</li>
+      <li>開發者工具 - 在瀏覽器中使用開發者工具(F12) 查看及編輯 element。</li>
+      <li>Bootstrap - 視教學情況做調整</li>
     </ul>
     <!-- Day 1 - End -->
 
@@ -49,44 +56,51 @@
     <h3>Javascript</h3>
     <ul>
       <li>
-        基礎 - 變數(variable)、方法(function)、物件(object)、陣列(array)
+        基礎 -
+        變數(variable)、方法(function)、物件(object)、陣列(array)...，解說及練習
       </li>
-      <li>註解</li>
-      <li>代碼風格 - 命名規範、排版</li>
-      <li>Debug - Console</li>
+      <li>註解 - 講解代碼該如何註解及練習。</li>
+      <li>代碼風格 - 命名規範、排版。</li>
+      <li>Debug - js Debug 技巧。</li>
     </ul>
 
     <h3>Vue</h3>
     <ul>
-      <li>介紹</li>
-      <li>安裝 chrome Vue.js devtools</li>
+      <li>Vue 基本介紹。</li>
+      <li>安裝 chrome Vue.js devtools。</li>
       <li>
+        視教學狀況選擇 CDN 引入 Vue 學習 (難度較低) 或直接學習 Vue-cli
+        (難度較高)。
+      </li>
+      <!-- <li>
         基礎教學 - 以 CDN 的方式引入
         Vue，以清單搜尋範例講解vue的基本觀念及語法，new
         Vue、el(選擇器)、data、computed、v-bind、v-on、v-if、v-for
-      </li>
+      </li> -->
     </ul>
     <!-- Day 2 - End -->
 
     <!-- Day 3 - Start -->
-    <h2>Day 3</h2>
+    <h2>Day 3 - 4</h2>
 
     <h3>Vue Cli</h3>
     <ul>
       <li>介紹 - 解說 spa 及如何使用 vue-cli 建立 spa 網站，專案架構說明</li>
-      <li>npm：安裝 package</li>
-      <li>ES Lint、Prettier：代碼風格規範及排版工具介紹</li>
-      <li>vue-router - 由前端控制網站 router</li>
-      <li>Vue template - 講解.vue檔及如何編寫</li>
+      <li>npm - 介紹及安裝 package</li>
+      <li>ES Lint、Prettier - 代碼風格規範及排版工具介紹</li>
+      <li>Vue template - 講解.vue檔、命名規則及如何編寫，</li>
+      <li>vue-router - 講解如何由前端控制網站 router</li>
+      <li>計數器 (練習) - 學習 data 綁定及 method 的使用</li>
+      <li>清單搜尋頁面 (練習) - 學習</li>
       <li>生命週期 - 介紹 vue component 的生命週期</li>
     </ul>
 
     <h3>Restful api</h3>
     <ul>
-      <li>介紹</li>
-      <li>模擬</li>
-      <li>postman</li>
-      <li>axios</li>
+      <li>介紹 - 介紹 Reatful api</li>
+      <li>模擬 - 使用 json-server 模擬 api</li>
+      <li>postman - postman 介紹與使用</li>
+      <li>axios - axios 介紹與使用</li>
     </ul>
     <!-- <p>
       API：Restful Api 解說、如果沒有提供API則使用 json-server 模擬，先使用
@@ -95,15 +109,29 @@
     <!-- Day 3 - End -->
 
     <!-- Day 4 - Start -->
-    <h2>Day 4 - 7</h2>
+    <h2>Day 5 - 7</h2>
     <p>專案實作</p>
     <!-- Day 4 - End -->
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .tutorial {
   text-align: left;
-  padding: 0 40px;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  h3 {
+    color: rgb(80, 77, 77);
+    font-size: 1.5rem;
+  }
 }
 </style>
