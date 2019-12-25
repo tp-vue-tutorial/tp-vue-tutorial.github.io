@@ -96,7 +96,7 @@
       <li>vue-router - 講解如何由前端控制網站 router。</li>
     </ul>
 
-    <h3>練習 (Vue.js Labs)</h3>
+    <h3 class="color-red">練習 (Vue.js Labs)</h3>
 
     <ul>
       <li>計數器 - 學習 data 綁定及 method。</li>
@@ -111,6 +111,7 @@
       <li>表單驗證 - 學習使用 VeeValidate 套件做表單驗證。</li>
       <li>focus Demo - 學習使用 refs 操作 dom 元素。</li>
     </ul>
+    <hr />
 
     <h3>Restful api</h3>
     <ul>
@@ -120,7 +121,7 @@
       <li>axios - axios 介紹與使用</li>
     </ul>
 
-    <h3>API 串接練習 (Vue.js Labs)</h3>
+    <h3 class="color-red">API 串接練習 (Vue.js Labs)</h3>
     <ul>
       <li>
         產品明細列表 - 以 axios 串接 API，將後端資料綁定到畫面上。
@@ -130,6 +131,7 @@
         API，將後端資料綁定到輪播套件上。
       </li>
     </ul>
+    <hr />
     <!-- <p>
       API：Restful Api 解說、如果沒有提供API則使用 json-server 模擬，先使用
       postman 熟悉 api 的操作，再使用 axios 練習
@@ -173,6 +175,10 @@
   h3 {
     color: rgb(80, 77, 77);
     font-size: 1.3rem;
+  }
+
+  .color-red {
+    color: red;
   }
 }
 </style>
