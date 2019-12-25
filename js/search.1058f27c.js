@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["search"],{"2d3b":function(e,t,n){"use strict";n.r(t);var r=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},c=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[n("h1",[e._v("Search")]),n("div",[n("input",{attrs:{type:"",placeholder:"請輸入關鍵字"}})])])}],a=n("2877"),l={},s=Object(a["a"])(l,r,c,!1,null,null,null);t["default"]=s.exports}}]);
-//# sourceMappingURL=search.1058f27c.js.map
