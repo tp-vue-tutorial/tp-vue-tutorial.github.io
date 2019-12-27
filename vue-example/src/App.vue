@@ -28,11 +28,19 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
 #app > div:nth-child(2) {
   margin-top: 20px;
+  overflow: auto;
 }
 #nav {
   padding: 30px;

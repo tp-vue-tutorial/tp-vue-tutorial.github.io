@@ -37,39 +37,43 @@ export default {
   }
 }
 </script>
-<style scope>
+<style lang="scss" scope>
 .Search {
   font-family: 'Microsoft JhengHei';
   width: 400px;
   margin: auto;
-}
 
-.Search .content {
-  background-color: #eee;
-  padding: 10px 20px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-.Search .content > input {
-  height: 35px;
-  line-height: 35px;
-  border-radius: 5px;
-  border: 1px #ccc solid;
-  padding-left: 10px;
-}
-.Search .content .list {
-  background-color: #fff;
-  border: 1px #ccc solid;
-  border-radius: 5px;
-}
-.Search .content .list .item {
-  height: 35px;
-  line-height: 35px;
-  border-bottom: 1px #ccc solid;
-  padding-left: 10px;
-}
-.Search .content .list .item:nth-last-child(1) {
-  border-bottom: 0;
+  .content {
+    background-color: #eee;
+    padding: 10px 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    > input {
+      height: 35px;
+      line-height: 35px;
+      border-radius: 5px;
+      border: 1px #ccc solid;
+      padding-left: 10px;
+    }
+
+    .list {
+      background-color: #fff;
+      border: 1px #ccc solid;
+      border-radius: 5px;
+
+      .item {
+        height: 35px;
+        line-height: 35px;
+        border-bottom: 1px #ccc solid;
+        padding-left: 10px;
+      }
+
+      .item:nth-last-child(1) {
+        border-bottom: 0;
+      }
+    }
+  }
 }
 </style>

@@ -28,14 +28,15 @@ export default {
   }
 }
 </script>
-<style scope>
+<style lang="scss" scope>
 .listDemo {
   width: 400px;
   margin: auto;
-}
-.listDemo .content .item {
-  height: 35px;
-  line-height: 35px;
-  border-bottom: 1px #ccc solid;
+  
+  .content .item {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px #ccc solid;
+  }
 }
 </style>

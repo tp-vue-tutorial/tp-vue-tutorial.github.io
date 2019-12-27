@@ -29,18 +29,20 @@ export default {
   methods: {}
 }
 </script>
-<style>
+<style lang="scss" scoped>
 .Practice {
   margin-top: 40px;
   width: 400px;
-  margin: auto
-}
-.Practice > ul {
-  background-color: #eee
-}
-.Practice > ul > li {
-  text-align: left;
-  height: 35px;
-  line-height: 35px
+  margin: auto;
+
+  > ul {
+    background-color: #eee;
+
+    li {
+      text-align: left;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
 }
 </style>

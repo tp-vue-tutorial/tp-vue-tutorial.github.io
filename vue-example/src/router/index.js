@@ -38,49 +38,49 @@ const routes = [
     path: '/filterDemo',
     name: 'filterDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/listDemo',
     name: 'listDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/listDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/ListDemo.vue')
   },
   {
     path: '/modalDemo',
     name: 'modalDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/register',
     name: 'register',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/ajaxDemo',
     name: 'ajaxDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/refDemo',
     name: 'refDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/carouselDemo',
     name: 'carouselDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   },
   {
     path: '/counterWithState',
     name: 'counterWithState',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
   }
 ]
 
