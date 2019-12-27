@@ -1,17 +1,46 @@
 <template>
-  <div>
+  <div class="Practice">
     <h1>練習</h1>
     <p>練習項目清單</p>
     <ul>
-      <li>
-        <router-link to="/">Home</router-link>
-      </li>
-      <li>
-        <router-link to="/counter">Counter</router-link>
-      </li>
-      <li>
-        <router-link to="/search">Search</router-link>
+      <li v-for="item in link" :key="item.name">
+        <router-link :to="item.path" v-text="item.name"></router-link>
       </li>
     </ul>
   </div>
 </template>
+<script>
+export default {
+  name: 'Practice',
+  components: {},
+  data() {
+    return {
+      link: [
+        { name: 'Home', path: '/' },
+        { name: 'Counter', path: '/counter' },
+        { name: 'Search', path: '/search' },
+        { name: 'filterDemo', path: '/filterDemo' },
+        { name: 'listDemo', path: '/listDemo' }
+      ]
+    }
+  },
+  mounted() {},
+  computed: {},
+  methods: {}
+}
+</script>
+<style>
+.Practice {
+  margin-top: 40px;
+  width: 400px;
+  margin: auto
+}
+.Practice > ul {
+  background-color: #eee
+}
+.Practice > ul > li {
+  text-align: left;
+  height: 35px;
+  line-height: 35px
+}
+</style>

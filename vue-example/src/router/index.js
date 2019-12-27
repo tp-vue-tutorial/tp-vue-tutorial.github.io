@@ -32,7 +32,55 @@ const routes = [
     path: '/search',
     name: 'search',
     component: () =>
-      import(/* webpackChunkName: "search" */ '../views/Search.vue')
+      import(/* webpackChunkName: "practice" */ '../views/Search.vue')
+  },
+  {
+    path: '/filterDemo',
+    name: 'filterDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/listDemo',
+    name: 'listDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/listDemo.vue')
+  },
+  {
+    path: '/modalDemo',
+    name: 'modalDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/ajaxDemo',
+    name: 'ajaxDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/refDemo',
+    name: 'refDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/carouselDemo',
+    name: 'carouselDemo',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
+  },
+  {
+    path: '/counterWithState',
+    name: 'counterWithState',
+    component: () =>
+      import(/* webpackChunkName: "practice" */ '@/views/filterDemo.vue')
   }
 ]
 

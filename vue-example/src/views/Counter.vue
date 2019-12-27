@@ -1,9 +1,7 @@
 <template>
   <div>
-    <h1>Counter</h1>
-
-    <p>Counter: {{ counter }}</p>
-
+    <h1 v-text="'Counter'"></h1>
+    <p v-text="`Counter : ${counter}`"></p>
     <div>
       <button type="button" class="btn btn-primary mr-3" @click="minusOne">
         減 1
