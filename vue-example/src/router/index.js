@@ -50,25 +50,25 @@ const routes = [
     path: '/modalDemo',
     name: 'modalDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/ModalDemo.vue')
   },
   {
     path: '/register',
     name: 'register',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/Register.vue')
   },
   {
     path: '/ajaxDemo',
     name: 'ajaxDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/AjaxDemo.vue')
   },
   {
     path: '/refDemo',
     name: 'refDemo',
     component: () =>
-      import(/* webpackChunkName: "practice" */ '@/views/FilterDemo.vue')
+      import(/* webpackChunkName: "practice" */ '@/views/RefDemo.vue')
   },
   {
     path: '/carouselDemo',

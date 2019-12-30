@@ -1,5 +1,5 @@
 <template>
-  <div class="Search">
+  <div class="search">
     <h1 v-text="'Search'"></h1>
     <p></p>
     <div class="content">
@@ -18,7 +18,7 @@
 </template>
 <script>
 export default {
-  name: 'Search',
+  name: 'search',
   data() {
     return {
       count: 0,
@@ -38,7 +38,7 @@ export default {
 }
 </script>
 <style lang="scss" scope>
-.Search {
+.search {
   font-family: 'Microsoft JhengHei';
   width: 400px;
   margin: auto;

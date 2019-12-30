@@ -1,5 +1,5 @@
 <template>
-  <div class="Practice">
+  <div class="practice">
     <h1>練習</h1>
     <p>練習項目清單</p>
     <ul>
@@ -11,7 +11,7 @@
 </template>
 <script>
 export default {
-  name: 'Practice',
+  name: 'practice',
   components: {},
   data() {
     return {
@@ -19,8 +19,12 @@ export default {
         { name: 'Home', path: '/' },
         { name: 'Counter', path: '/counter' },
         { name: 'Search', path: '/search' },
-        { name: 'filterDemo', path: '/filterDemo' },
-        { name: 'listDemo', path: '/listDemo' }
+        { name: 'FilterDemo', path: '/filterDemo' },
+        { name: 'ListDemo', path: '/listDemo' },
+        { name: 'ModalDemo', path: '/modalDemo' },
+        { name: 'Register', path: '/register' },
+        { name: 'AjaxDemo', path: '/ajaxDemo' },
+        { name: 'RefDemo', path: '/refDemo' },
       ]
     }
   },
@@ -30,7 +34,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.Practice {
+.practice {
   margin-top: 40px;
   width: 400px;
   margin: auto;
