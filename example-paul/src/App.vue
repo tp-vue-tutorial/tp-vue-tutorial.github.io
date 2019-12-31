@@ -24,6 +24,10 @@ export default {
           title: '關於'
         },
         {
+          link: '/learn',
+          title: '教材'
+        },
+        {
           link: '/practice',
           title: '練習'
         }

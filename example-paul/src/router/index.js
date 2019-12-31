@@ -35,6 +35,32 @@ const routes = [
       import(/* webpackChunkName: "counter" */ '../views/Counter.vue')
   },
   {
+    path: '/learn',
+    name: 'learn',
+    component: () =>
+      import(/* webpackChunkName: "learn" */ '../views/Learn.vue')
+  },
+  {
+    path: '/learn_css',
+    name: 'learn_css',
+    component: () =>
+      import(/* webpackChunkName: "learn_css" */ '../views/learn/LearnCss.vue')
+  },
+  {
+    path: '/learn_js',
+    name: 'learn_js',
+    component: () =>
+      import(/* webpackChunkName: "learn_js" */ '../views/learn/LearnJs.vue')
+  },
+  {
+    path: '/learn_html',
+    name: 'learn_html',
+    component: () =>
+      import(
+        /* webpackChunkName: "learn_html" */ '../views/learn/LearnHtml.vue'
+      )
+  },
+  {
     path: '/listDemo',
     name: 'listDemo',
     component: () =>

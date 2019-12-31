@@ -5,6 +5,9 @@
       <div v-for="item in dataList" :key="item.prodId">
         <img :src="item.prodImg" :alt="item.prodName" />
       </div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </div>
   </div>
 </template>

@@ -72,18 +72,17 @@ export default {
       list: []
     }
   },
-  mounted() {
-    this.$axios.get('product/list').then(data => {
-      this.list = data.data.data
-    })
+  async mounted() {
+    const response = await this.$axios.get('product/list')
+    this.list = response.data.data
   },
   methods: {
     onClick(prodId) {
       this.isModalOpen = true
       this.$axios
         .post('product/detail', { prodId })
-        .then(data => {
-          this.data = data.data.data
+        .then(({ data }) => {
+          this.data = data.data
           this.isModalOpen = true
         })
         .catch(() => {
