@@ -28,20 +28,20 @@
 </template>
 
 <script>
-import name from '@/data/name.json'
+import nameList from '@/data/name.json'
 
 export default {
   data() {
     return {
       /** @type {string[]} */
-      list: name,
+      list: nameList,
       searchValue: ''
     }
   },
   computed: {
     filterList() {
-      return this.list.filter(name =>
-        name.toUpperCase().includes(this.searchValue.toUpperCase())
+      return this.list.filter(item =>
+        item.toUpperCase().includes(this.searchValue.toUpperCase())
       )
     }
   }

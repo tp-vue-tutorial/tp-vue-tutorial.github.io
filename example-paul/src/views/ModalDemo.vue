@@ -3,7 +3,7 @@
     <h1>Modal Demo</h1>
     <div class="card mx-auto" style="width: 40rem;">
       <card-body class="p-3">
-        <button class="btn btn-primary" @click="onModalOpen">
+        <button class="btn btn-primary" @click="isModalOpen = true">
           Open PopupModal
         </button>
       </card-body>
@@ -24,12 +24,8 @@ export default {
   },
   data() {
     return {
+      /** Modal 是否開啟 */
       isModalOpen: false
-    }
-  },
-  methods: {
-    onModalOpen() {
-      this.isModalOpen = true
     }
   }
 }

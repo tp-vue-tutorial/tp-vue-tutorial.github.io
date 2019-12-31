@@ -26,10 +26,9 @@ export default {
     }
   },
   filters: {
-    toCurrency(num) {
-      const parts = num.toString().split('.')
-      parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-      return parts.join('.')
+    toCurrency(value) {
+      const reg = /(\d)(?=(\d{3})+\.)/g
+      return (value * 1).toFixed(2).replace(reg, '$1,')
     }
   }
 }

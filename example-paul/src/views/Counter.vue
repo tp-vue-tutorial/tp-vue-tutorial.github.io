@@ -5,13 +5,13 @@
     <p>Counter: {{ counter }}</p>
 
     <div>
-      <button type="button" class="btn btn-primary mr-3" @click="minusOne">
+      <button type="button" class="btn btn-primary mr-3" @click="compute(-1)">
         減 1
       </button>
       <button type="button" class="btn btn-primary mr-3" @click="reset">
         重置
       </button>
-      <button type="button" class="btn btn-primary" @click="plusOne">
+      <button type="button" class="btn btn-primary" @click="compute(1)">
         加 1
       </button>
     </div>
@@ -40,6 +40,14 @@ export default {
     /** 重置 */
     reset() {
       this.counter = 0
+    },
+    /**
+     * @description 通用計算方法
+     * @param {*} value 要加的值
+     */
+    compute(value) {
+      const result = this.counter + value
+      this.counter = result < 0 ? 0 : result
     }
   }
 }
