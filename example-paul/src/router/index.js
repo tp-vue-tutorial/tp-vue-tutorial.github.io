@@ -35,6 +35,14 @@ const routes = [
       import(/* webpackChunkName: "counter" */ '../views/Counter.vue')
   },
   {
+    path: '/counterWithState',
+    name: 'counterWithState',
+    component: () =>
+      import(
+        /* webpackChunkName: "counterWithState" */ '../views/CounterWithState.vue'
+      )
+  },
+  {
     path: '/learn',
     name: 'learn',
     component: () =>

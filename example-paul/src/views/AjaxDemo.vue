@@ -20,7 +20,12 @@
       </div>
     </div>
 
-    <popup-modal v-if="data" title="產品明細資料" :is-open.sync="isModalOpen">
+    <popup-modal
+      v-if="data"
+      title="產品明細資料"
+      :is-open.sync="isModalOpen"
+      close-btn-text="關閉"
+    >
       <div class="text-left">
         <div class="text-center">
           <img :src="data.prodImg" :alt="data.prodName" />

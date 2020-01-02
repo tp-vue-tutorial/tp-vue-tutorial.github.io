@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isOpen" class="popup-modal-cover">
+  <div v-if="isOpen" class="popup-modal-cover" @click="onCoverClick">
     <div class="popup-modal p-4">
       <h2>
         {{ title }}
@@ -12,7 +12,7 @@
       </div>
 
       <button class="btn btn-primary mt-3" @click="onCloseModal">
-        關閉
+        {{ closeBtnText }}
       </button>
     </div>
   </div>
@@ -21,6 +21,10 @@
 <script>
 export default {
   props: {
+    closeBtnText: {
+      type: String,
+      default: 'Close PopupModal'
+    },
     isOpen: {
       type: Boolean,
       required: true
@@ -33,6 +37,11 @@ export default {
   methods: {
     onCloseModal() {
       this.$emit('update:isOpen', false)
+    },
+    onCoverClick(event) {
+      if (event.target.className === 'popup-modal-cover') {
+        this.onCloseModal()
+      }
     }
   }
 }

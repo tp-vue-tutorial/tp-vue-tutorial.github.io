@@ -12,13 +12,15 @@
         />
       </div>
       <div class="card-body text-left">
-        轉換後的結果 => {{ number | toCurrency }}
+        轉換後的結果 => {{ number | commafy }}
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { commafy } from '@/utils/filters/index.js'
+
 export default {
   data() {
     return {
@@ -26,10 +28,7 @@ export default {
     }
   },
   filters: {
-    toCurrency(value) {
-      const reg = /(\d)(?=(\d{3})+\.)/g
-      return (value * 1).toFixed(2).replace(reg, '$1,')
-    }
+    commafy
   }
 }
 </script>

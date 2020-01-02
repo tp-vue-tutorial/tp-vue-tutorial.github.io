@@ -19,6 +19,7 @@
 import PopupModal from '@/components/PopupModal.vue'
 
 export default {
+  name: 'modalDemo',
   components: {
     PopupModal
   },

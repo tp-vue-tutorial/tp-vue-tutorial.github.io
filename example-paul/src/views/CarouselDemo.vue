@@ -1,20 +1,19 @@
 <template>
   <div>
     <h1>CarouselDemo</h1>
-    <div class="tiny-slider">
-      <div v-for="item in dataList" :key="item.prodId">
-        <img :src="item.prodImg" :alt="item.prodName" />
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div v-for="item in dataList" :key="item.prodId" class="swiper-slide">
+          <img :src="item.prodImg" />
+        </div>
       </div>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
     </div>
   </div>
 </template>
 
 <script>
-import { tns } from 'tiny-slider/src/tiny-slider'
-import 'tiny-slider/dist/tiny-slider.css'
+import Swiper from 'swiper'
+import 'swiper/css/swiper.min.css'
 
 export default {
   data() {
@@ -27,22 +26,17 @@ export default {
     this.$axios.get('product/list').then(data => {
       this.dataList = data.data.data
       setTimeout(() => {
-        this.slider = tns({
-          container: '.tiny-slider',
-          items: 1,
-          mouseDrag: true,
-          slideBy: 'page',
-          autoplay: true
+        new Swiper('.swiper-container', {
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+          },
+          slidesPerView: 5,
+          spaceBetween: 30,
+          loop: true
         })
       })
     })
   }
 }
 </script>
-
-<style lang="scss" scoped>
-// .tiny-slider div {
-//   height: 100px;
-//   background-color: red;
-// }
-</style>

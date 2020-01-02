@@ -57,6 +57,10 @@ export default {
         {
           to: '/carouselDemo',
           title: 'Carousel Demo'
+        },
+        {
+          to: '/counterWithState',
+          title: 'Counter With State'
         }
       ]
     }
