@@ -90,9 +90,7 @@ export default {
           this.data = data.data
           this.isModalOpen = true
         })
-        .catch(() => {
-          console.log('no')
-        })
+        .catch(() => {})
     }
   }
 }
