@@ -1,10 +1,9 @@
 <template>
   <div class="container tutorial">
-    <h1>Vue.js 教學大綱</h1>
+    <h1 class="text-center">Vue.js 教學大綱</h1>
 
     <!-- Day 1 - Start -->
     <h2>Day 1</h2>
-    <p>內容會視成員對網頁技術的了解程度做調整</p>
 
     <h3>課程介紹</h3>
     <p>介紹課程內容。</p>
@@ -14,40 +13,80 @@
 
     <h3>環境建置</h3>
     <ul>
-      <li>VSCODE - 安裝、基本設定與套件安裝。</li>
-      <!-- <p>
-      VSCODE套件：Code Spell Checker、Vetur、ESLint、Prettier、Chinese Language
-    </p> -->
-      <li>Github - 介紹與帳號申請。</li>
-      <li>Sourcetree - 版控 GUI 程式 Sourcetree 安裝、介紹及設定。</li>
+      <li>
+        <a
+          href="https://www.showdoc.cc/teachvue?page_id=3692358604838184"
+          target="_blank"
+        >
+          VS Code
+        </a>
+        - 安裝、基本設定與套件安裝。
+      </li>
+      <li>
+        <a
+          href="https://www.showdoc.cc/teachvue?page_id=3692364744603491"
+          target="_blank"
+        >
+          Github
+        </a>
+        - 介紹與帳號申請。
+      </li>
+      <li>
+        <a
+          href="https://www.showdoc.cc/teachvue?page_id=3692375427298319"
+          target="_blank"
+        >
+          Sourcetree
+        </a>
+        - 版控 GUI 程式 Sourcetree 安裝、介紹及設定。
+      </li>
       <li>Git - 介紹與基本使用方式。</li>
       <li>SSH - 介紹與設定。</li>
-      <li>Node.js - 安裝與介紹。</li>
+      <li>
+        <a
+          href="https://www.showdoc.cc/teachvue?page_id=3692381738476194"
+          target="_blan"
+        >
+          Node.js
+        </a>
+        - 安裝與介紹。
+      </li>
     </ul>
 
     <h3>HTML</h3>
     <ul>
       <li>
-        網頁基本結構介紹 - html、head、body...。
+        <a href="http://localhost:8080/learn_html#htmlStructor" target="_blank">
+          網頁基本架構介紹
+        </a>
+        - html、head、body...。
       </li>
       <li>
-        常用 html element 用法及介紹 (h1 - 6, div, p, input, table ...)。
+        <a href="http://localhost:8080/learn_html#headingIntro" target="_blank">
+          常用 html element 用法及介紹
+        </a>
+        - h1 - h6, div, span, a, p, input...。
       </li>
       <li>
-        html element 講解 - 講解 html element 的結構 (tag, content,
-        attributes)。
+        <a
+          href="https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/HTML_basics"
+          target="_blank"
+        >
+          html element 結構講解
+        </a>
+        - tag, content, attributes。
       </li>
     </ul>
 
     <h3>CSS</h3>
     <ul>
+      <li>選擇器 - 如何選擇要下樣式的 Html Tag。</li>
       <li>
-        基礎 - 基本語法、選擇器、如何對 element
-        下樣式、引入樣式的方式及優先度比較。
+        基礎 - 基本語法、引入樣式的方式及優先度比較。
       </li>
       <li>基本排版 - html 及 css 的排版練習。</li>
       <li>開發者工具 - 在瀏覽器中使用開發者工具(F12) 查看及編輯 element。</li>
-      <li>Bootstrap - 視教學情況做調整</li>
+      <li>Bootstrap - 視教學情況做調整。</li>
     </ul>
     <!-- Day 1 - End -->
 
@@ -67,8 +106,22 @@
 
     <h3>Vue</h3>
     <ul>
-      <li>Vue 基本介紹。</li>
-      <li>安裝 chrome Vue.js devtools。</li>
+      <li>
+        <a href="https://cn.vuejs.org/v2/guide/" target="_blank">
+          Vue 基本介紹
+        </a>
+        。
+      </li>
+      <li>
+        安裝
+        <a
+          href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd"
+          target="_blank"
+        >
+          chrome Vue.js devtools
+        </a>
+        。
+      </li>
       <li>
         視教學狀況選擇 CDN 引入 Vue 學習 (難度較低) 或直接學習 Vue-cli
         (難度較高)。

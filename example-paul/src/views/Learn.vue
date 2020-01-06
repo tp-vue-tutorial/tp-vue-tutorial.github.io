@@ -32,6 +32,10 @@ export default {
         {
           to: '/learn_js',
           title: 'JS'
+        },
+        {
+          to: 'learn_api',
+          title: 'JSON Server & REST API'
         }
       ]
     }

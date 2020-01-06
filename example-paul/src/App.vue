@@ -19,10 +19,10 @@ export default {
           link: '/',
           title: '教學大綱'
         },
-        {
-          link: '/about',
-          title: '關於'
-        },
+        // {
+        //   link: '/about',
+        //   title: '關於'
+        // },
         {
           link: '/learn',
           title: '教材'

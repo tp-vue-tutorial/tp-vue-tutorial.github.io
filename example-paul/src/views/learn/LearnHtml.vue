@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-center">Html 學習</h1>
 
-    <h2>1. 基本架構</h2>
+    <h2 id="htmlStructor">1. 基本架構</h2>
 
     <pre class="prettyprint">{{ htmlStructor }}</pre>
     <ul>
@@ -53,8 +53,8 @@
         </li>
 
         <li>
-          <h3 id="spanIntro">span（不換行）</h3>
-          <p>區塊顯示</p>
+          <h3 id="spanIntro">span</h3>
+          <p>區塊顯示（不換行）</p>
           <pre class="prettyprint">{{ spanIntro }}</pre>
           <div class="show" v-html="spanIntro" />
           <hr />

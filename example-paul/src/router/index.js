@@ -49,6 +49,12 @@ const routes = [
       import(/* webpackChunkName: "learn" */ '../views/Learn.vue')
   },
   {
+    path: '/learn_api',
+    name: 'learn_api',
+    component: () =>
+      import(/* webpackChunkName: "learn_api" */ '../views/learn/LearnApi.vue')
+  },
+  {
     path: '/learn_css',
     name: 'learn_css',
     component: () =>

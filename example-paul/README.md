@@ -1,4 +1,6 @@
-# vue-example
+# Thinkpower - Vue 入門 #
+
+## 教材連結
 
 ## Project setup
 ```
